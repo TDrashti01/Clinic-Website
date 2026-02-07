@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic Website</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Devicon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- BootStrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <nav class="navbar header navbar-expand-lg bg-none fixed-top" data-bs-theme="light">
+        <div class="container">
+            <a class="navbar-brand ms-3 fs-2 fw-medium" href="#">Clinic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 custom-underline" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 custom-underline" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 custom-underline" aria-current="page"
+                            href="departments.html">Departments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 custom-underline active fw-bold" style="color: #175cdd;"
+                            aria-current="page" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 custom-underline" aria-current="page" href="doctors.html">Doctors</a>
+                    </li>
+                    <li class="nav-item dropdown custom-underline">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More Pages
+                        </a>
+                        <ul class="dropdown-menu option">
+                            <li><a class="dropdown-item" href="department-details.html">Department Details</a></li>
+                            <li><a class="dropdown-item" href="service-details.html">Service Details</a></li>
+                            <li><a class="dropdown-item" href="appointment.html">Appointment</a></li>
+                            <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
+                            <li><a class="dropdown-item" href="terms.html">Terms</a></li>
+                            <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
+                            <li><a class="dropdown-item" href="404.html">404</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown custom-underline">
+                        <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            DropDown
+                        </a>
+                        <ul class="dropdown-menu option">
+                            <li><a class="dropdown-item" href="#">DropDown 1</a></li>
+                            <li><a class="dropdown-item" href="#">DropDown 2</a></li>
+                            <li><a class="dropdown-item" href="#">DropDown 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 custom-underline" aria-current="page" href="contant.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <!-- Hero2 Section -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Services</h1>
+                <p>
+                    Odio et unde deleniti. Deserunt numquam exercitationem.
+                    Officiis quo odio sint voluptas consequatur ut a odio voluptatem.
+                    Sit dolorum debitis veritatis natus dolores.
+                    Quasi ratione sint. Sit quaerat ipsum dolorem.
+                </p>
+            </div>
+
+            <div class="breadcrumb-wrapper my-5">
+                <div class="container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item fw-medium py-4"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item fw-medium py-4" aria-current="page">Services</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Service2 Section -->
+        <div class="container py-5">
+            <div class="row g-5">
+
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service2-card">
+                        <div class="service2-img">
+                            <img src="images/service2-1.webp" alt="Service Image">
+                            <div class="hover2-overlay">
+                                <div class="service2-icon">
+                                    <i class="fa-solid fa-heart-pulse"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service2-body">
+                            <h4>Cardiology</h4>
+                            <p>Comprehensive heart care with advanced diagnostic tools and treatment options.</p>
+                            <ul class="service2-list">
+                                <li><i class="fa-solid fa-check"></i> ECG Testing</li>
+                                <li><i class="fa-solid fa-check"></i> Heart Surgery</li>
+                            </ul>
+                            <a href="#" class="btn btn2-service w-100">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service2-card">
+                        <div class="service2-img">
+                            <img src="images/service2-2.webp" alt="Service Image">
+                            <div class="hover2-overlay">
+                                <div class="service2-icon">
+                                   <i class="fa-solid fa-brain"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service2-body">
+                            <h4>Neurology</h4>
+                            <p>Expert neurological care for brain and nervous system disorders.</p>
+                            <ul class="service2-list">
+                                <li><i class="fa-solid fa-check"></i> MRI Scans</li>
+                                <li><i class="fa-solid fa-check"></i> Stroke Care</li>
+                            </ul>
+                            <a href="#" class="btn btn2-service w-100">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service2-card">
+                        <div class="service2-img">
+                            <img src="images/service2-3.webp" alt="Service Image">
+                            <div class="hover2-overlay">
+                                <div class="service2-icon">
+                                    <i class="fa-solid fa-bone"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service2-body">
+                            <h4>Orthopedics</h4>
+                            <p>Specialized bone and joint treatment including sports medicine.</p>
+                            <ul class="service2-list">
+                                <li><i class="fa-solid fa-check"></i> Joint Replacement</li>
+                                <li><i class="fa-solid fa-check"></i> Sports Medicine</li>
+                            </ul>
+                            <a href="#" class="btn btn2-service w-100">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service2-card">
+                        <div class="service2-img">
+                            <img src="images/service2-4.webp" alt="Service Image">
+                            <div class="hover2-overlay">
+                                <div class="service2-icon">
+                                    <i class="fa-solid fa-person-dress"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service2-body">
+                            <h4>Neurology</h4>
+                            <p>Expert neurological care for brain and nervous system disorders.</p>
+                            <ul class="service2-list">
+                                <li><i class="fa-solid fa-check"></i> MRI Scans</li>
+                                <li><i class="fa-solid fa-check"></i> Stroke Care</li>
+                            </ul>
+                            <a href="#" class="btn btn2-service w-100">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service2-card">
+                        <div class="service2-img">
+                            <img src="images/service2-5.webp" alt="Service Image">
+                            <div class="hover2-overlay">
+                                <div class="service2-icon">
+                                    <i class="fa-solid fa-ambulance"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service2-body">
+                            <h4>Neurology</h4>
+                            <p>Expert neurological care for brain and nervous system disorders.</p>
+                            <ul class="service2-list">
+                                <li><i class="fa-solid fa-check"></i> MRI Scans</li>
+                                <li><i class="fa-solid fa-check"></i> Stroke Care</li>
+                            </ul>
+                            <a href="#" class="btn btn2-service w-100">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="service2-card">
+                        <div class="service2-img">
+                            <img src="images/service2-6.webp" alt="Service Image">
+                            <div class="hover2-overlay">
+                                <div class="service2-icon">
+                                    <i class="fa-solid fa-microscope"></i> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service2-body">
+                            <h4>Neurology</h4>
+                            <p>Expert neurological care for brain and nervous system disorders.</p>
+                            <ul class="service2-list">
+                                <li><i class="fa-solid fa-check"></i> MRI Scans</li>
+                                <li><i class="fa-solid fa-check"></i> Stroke Care</li>
+                            </ul>
+                            <a href="#" class="btn btn2-service w-100">
+                                Learn More <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-5 col-md-12 mb-5">
+                    <div class="footer-logo">Clinic</div>
+
+                    <p class="footer-text">
+                        Crafting exceptional digital experiences through thoughtful design
+                        and innovative solutions that elevate your brand presence.
+                    </p>
+
+                    <ul class="footer-contact p-0">
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            123 Creative Boulevard, Design District, NY 10012
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            +1 (555) 987-6543
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-envelope"></i>
+                            hello@designstudio.com
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-7 col-md-12">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-4">
+                            <h5 class="footer-title">Studio</h5>
+                            <ul class="footer-links">
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Design Process</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Case Studies</a></li>
+                                <li><a href="#">Awards</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-4">
+                            <h5 class="footer-title">Services</h5>
+                            <ul class="footer-links">
+                                <li><a href="#">Brand Identity</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Mobile Apps</a></li>
+                                <li><a href="#">Digital Strategy</a></li>
+                                <li><a href="#">Consultation</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-4">
+                            <h5 class="footer-title">Resources</h5>
+                            <ul class="footer-links">
+                                <li><a href="#">Design Blog</a></li>
+                                <li><a href="#">Style Guide</a></li>
+                                <li><a href="#">Free Assets</a></li>
+                                <li><a href="#">Tutorials</a></li>
+                                <li><a href="#">Inspiration</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-4">
+                            <h5 class="footer-title">Connect</h5>
+                            <ul class="footer-links">
+                                <li><a href="#">Start Project</a></li>
+                                <li><a href="#">Schedule Call</a></li>
+                                <li><a href="#">Join Newsletter</a></li>
+                                <li><a href="#">Follow Updates</a></li>
+                                <li><a href="#">Partnership</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer2 Section -->
+    <div class="footer-bottom py-4">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0 text-muted">
+                        © <strong>Clinic</strong>. All rights reserved.
+                    </p>
+                </div>
+
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                    <span class="mx-2 text-muted">|</span>
+
+                    <a href="#" class="footer-bottom-link">Terms of Service</a>
+                    <span class="mx-2 text-muted">|</span>
+
+                    <a href="#" class="footer-bottom-link">Cookie Policy</a>
+                    <span class="mx-3 text-muted">|</span>
+
+                    <span class="text-muted">
+                        Designed by <a href="#" class="footer-bottom-link">BootstrapMade</a>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scroll to top -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+
+
+    <!-- BootStrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const scrollBtn = document.getElementById('scrollTop');
+
+        window.addEventListener('scroll', () => {
+            scrollBtn.style.display = window.scrollY > 300 ? 'flex' : 'none';
+        });
+
+        scrollBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
